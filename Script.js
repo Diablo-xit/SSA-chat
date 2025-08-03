@@ -426,7 +426,7 @@ function generateChatHTML(username) {
 }
 
 // === Demarrage du serveur ===
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 server.listen(PORT, function () {
   console.log("Chat demarre sur http://localhost:" + PORT);
 });hu
